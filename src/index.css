@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SF Pro Light';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/src/assets/fonts/SF-Pro-Display-Light.otf') format('opentype');
+  } 
+
+@font-face {
+    font-family: 'SF Pro Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/src/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  } 
+
+@font-face {
+    font-family: 'Acorn Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/src/assets/fonts/Acorn-Regular.otf') format('opentype');
+  } 
+
+@font-face {
+    font-family: 'Acorn Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/src/assets/fonts/Acorn-Bold.otf') format('opentype');
+  } 
+
+@font-face {
+    font-family: 'Acorn SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/src/assets/fonts/Acorn-SemiBold.otf') format('opentype');
+  } 
+
+.custom-navbar {
+    background: hsla(45, 17%, 95%, 0.8);
+    backdrop-filter: blur(20px) saturate(1.7);
+  }
+
+.hover-navbar{
+    background: hsla(0, 0%, 100%, .5);
+}
