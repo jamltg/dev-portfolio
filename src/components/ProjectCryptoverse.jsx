@@ -18,7 +18,7 @@ export default function ProjectCryptoverse() {
         <div class="flex justify-center items-center size-full bg-gray-700 text-[.25rem] text-gray-400 rounded-sm sm:text-[.5rem]">www.cryptoverse.com</div>
         </div>
         <div class="bg-gray-800 rounded-b-lg">
-          <img class="rounded-b-lg" src='/src/assets/images/cryptoverse.png' alt="image"/>
+          <img class="rounded-b-lg" src='/images/cryptoverse.png' alt="image"/>
         </div>
       </figure>
       <div className='flex mt-6 gap-4'>
