@@ -1,11 +1,11 @@
 import React from 'react'
-import ResumePDF from '../assets/files/Resume-Full-Stack-Developer.pdf';
+import CVPdf from '../assets/files/CV-Software-Developer.pdf';
 
 export default function CollaborateInfo() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.download = 'Resume-Full-Stack-Developer';
-        link.href = ResumePDF;
+        link.download = 'CV-Software-Developer';
+        link.href = CVPdf;
         link.click();
         };
 
@@ -21,7 +21,7 @@ export default function CollaborateInfo() {
         </div>
         <div className='mt-3 flex justify-center'>
             <div>
-                <button onClick={handleDownload} className='bg-none text-[#025a4e] border-2 border-[#025a4e] tracking-wider font-acornRegular text-lg px-4 py-2 mt-4 rounded-lg transition-colors duration-300 hover:bg-[#025a4e] hover:text-[#fff]'>Download my Resume</button>
+                <button onClick={handleDownload} className='bg-none text-[#025a4e] border-2 border-[#025a4e] tracking-wider font-acornRegular text-lg px-4 py-2 mt-4 rounded-lg transition-colors duration-300 hover:bg-[#025a4e] hover:text-[#fff]'>Download my CV</button>
             </div>
         </div>
     </div>
