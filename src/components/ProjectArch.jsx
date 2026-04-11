@@ -3,7 +3,7 @@ import { BsGlobe, BsGithub } from "react-icons/bs";
 
 export default function ProjectArch() {
   return (
-    <div className='bg-[#E8B89C] max-w-[600px] flex flex-col justify-center items-center p-6 rounded-2xl'>
+    <div className='bg-[#BEE7C5] max-w-[600px] flex flex-col justify-center items-center p-6 rounded-2xl'>
       <div className='w-full text-right text-base pb-2'>
         <p className='font-acornBold text-sm tracking-wider text-[#364442]'>ARCHITECTURE WEBSITE</p>
         <p className='font-acornSemiBold mt-2 text-2xl text-[#364442]'>Arch</p>

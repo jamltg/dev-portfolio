@@ -15,9 +15,9 @@ export default function CollaborateInfo() {
             <p className='text-[#4c6763] font-acornBold text-3xl text-center'>About Me</p>
         </div>
         <div>
-            <p className='text-[#4c6763] font-sfProRegular text-center md:text-justify'>The cusp of creativity and technology has always been where I thrive. With a strong foundation from my Computer Science degree and experience in tech, I specialize in building user-friendly and efficient applications. Over the years, I've honed my skills in web design, dynamic application development, server-side programming, and database management.
+            <p className='text-[#4c6763] font-sfProRegular text-left md:text-justify'>The cusp of creativity and technology has always been where I thrive. With a strong foundation from my Computer Science degree and experience in tech, I specialize in building user-friendly and efficient applications. Over the years, I've honed my skills in web design, dynamic application development, server-side programming, and database management.
             </p>
-            <p className='text-[#4c6763] font-sfProRegular text-center md:text-justify mt-3'>Beyond the screen, I find balance and energy through swimming and hitting the gym. These pastimes not only keep me active but also fuel the focus and discipline I bring to my work.</p>
+            <p className='text-[#4c6763] font-sfProRegular text-left md:text-justify mt-3'>Beyond the screen, I find balance and energy through swimming and hitting the gym. These pastimes not only keep me active but also fuel the focus and discipline I bring to my work.</p>
         </div>
         <div className='mt-3 flex justify-center'>
             <div>
