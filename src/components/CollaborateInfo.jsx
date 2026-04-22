@@ -1,10 +1,10 @@
 import React from 'react'
-import CVPdf from '../assets/files/CV-Software-Developer.pdf';
+import CVPdf from '../assets/files/Resume-Developer.pdf';
 
 export default function CollaborateInfo() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.download = 'CV-Software-Developer';
+        link.download = 'Resume-Developer';
         link.href = CVPdf;
         link.click();
         };
